@@ -16,7 +16,7 @@ body {
 
 fieldset {
     border: 0;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 0;
     background-color: white;
     display: flex;
@@ -26,6 +26,12 @@ fieldset {
 input {
     min-height: 34px;
     margin: 12px 2px;
+    border: solid 2px #6d6d6d;
+    border-radius: 4px;
+}
+
+#name_section {
+    display: flex;
 }
 
 #first_name, #last_name {
@@ -34,8 +40,13 @@ input {
 }
 
 #email {
+    width: 91%;
     background: url(./images/email_ico.png) no-repeat;
     padding-left: 36px;
+}
+
+#password_section {
+    display: flex;
 }
 
 #password, #confirm_password {
