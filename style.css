@@ -1,8 +1,14 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins.ttf);
+}
+
 body {
     height: 100vh;
     margin: 0;
     padding: 0;
     background: #6C63FF;
+    font-family: Poppins;
     display: flex;
 }
 
