@@ -10,7 +10,6 @@ body {
     background: #6C63FF;
     font-family: Poppins;
     display: flex;
-    overflow: hidden;
 }
 
 .content {
@@ -104,10 +103,13 @@ button:active {
     justify-content: center;
 }
 
+#images {
+    overflow: hidden;
+}
+
 #bg_right {
-    height: auto;
-    z-index: -1;
     position: absolute;
-    bottom: -64px;
-    right: 12px;
+    z-index: -1;
+    bottom: 0px;
+    right: 0px;
 }
