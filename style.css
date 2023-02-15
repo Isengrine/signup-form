@@ -2,7 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: #536DFE;
+    background: #6C63FF;
     display: flex;
 }
 
@@ -17,4 +17,23 @@ body {
 fieldset {
     background-color: white;
     border: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 12px 0;
+    padding: 12px;
+    color: white;
+    background: #00BFA6;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 4px #00917d;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #00917d;
 }
