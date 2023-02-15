@@ -65,6 +65,15 @@ input {
     margin: 0 4px 0 4px;
 }
 
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 button {
     margin: 12px 0;
     padding: 12px;
@@ -73,10 +82,17 @@ button {
     border: none;
     border-radius: 2px;
     box-shadow: 0 4px #00917d;
+    font-size: 24px;
     cursor: pointer;
 }
 
 button:active {
     transform: translateY(2px);
     box-shadow: 0 2px #00917d;
+}
+
+#login {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
