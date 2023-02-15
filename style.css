@@ -10,6 +10,7 @@ body {
     background: #6C63FF;
     font-family: Poppins;
     display: flex;
+    overflow: hidden;
 }
 
 .content {
@@ -46,7 +47,7 @@ input {
 }
 
 #email {
-    width: 91%;
+    width: 452px;
     background: url(./images/email_ico.png) no-repeat;
     padding-left: 36px;
 }
@@ -86,7 +87,7 @@ button {
     color: white;
     background: #00BFA6;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 0 4px #00917d;
     font-size: 24px;
     cursor: pointer;
@@ -101,4 +102,12 @@ button:active {
     font-size: 12px;
     display: flex;
     justify-content: center;
+}
+
+#bg_right {
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    bottom: -64px;
+    right: 12px;
 }
