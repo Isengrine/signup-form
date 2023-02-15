@@ -15,11 +15,32 @@ body {
 }
 
 fieldset {
-    background-color: white;
     border: 0;
+    border-radius: 4px;
     margin: 0;
+    background-color: white;
     display: flex;
     flex-direction: column;
+}
+
+input {
+    min-height: 34px;
+    margin: 12px 2px;
+}
+
+#first_name, #last_name {
+    background: url(./images/user_ico.png) no-repeat;
+    padding-left: 36px;
+}
+
+#email {
+    background: url(./images/email_ico.png) no-repeat;
+    padding-left: 36px;
+}
+
+#password, #confirm_password {
+    background: url(./images/password_ico.png) no-repeat;
+    padding-left: 36px;
 }
 
 button {
