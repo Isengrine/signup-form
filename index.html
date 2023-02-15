@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="content">
-        <form action="/server/" method="get">
+        <form action="#" method="get">
             <fieldset>
                 <legend><img src="./images/legend_ico.svg" id="legend_img" alt=""></legend>
                 <section id="name_section">
@@ -22,6 +22,12 @@
                 <section id="password_section">
                     <input type="password" id="password" name="password" placeholder="Password" required>
                     <input type="password" id="confirm_password" placeholder="Confirm Password" required>
+                </section>
+                <section id="agreement">
+                    <label for="agree" id="terms">
+                        <input type="checkbox" name="agree" id="agree" required>
+                        <p>I agree to the terms and conditions as set out by <a href="#"> the user agreement</a>.</p>
+                    </label>
                 </section>
                 <button type="submit">Create Account</button>
             </fieldset>

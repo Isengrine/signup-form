@@ -54,6 +54,17 @@ input {
     padding-left: 36px;
 }
 
+#terms {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#agree {
+    margin: 0 4px 0 4px;
+}
+
 button {
     margin: 12px 0;
     padding: 12px;
