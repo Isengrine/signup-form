@@ -65,6 +65,12 @@ input {
     padding-left: 36px;
 }
 
+#passwords_match {
+    font-size: 10px;
+    text-align: center;
+    color: red;
+}
+
 #terms {
     font-size: 12px;
     display: flex;
@@ -100,6 +106,10 @@ button {
 button:active {
     transform: translateY(2px);
     box-shadow: 0 2px #00917d;
+}
+
+button:disabled {
+    background: #8cc7bf;
 }
 
 #login {
